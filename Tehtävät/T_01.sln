@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 // Lassi's T1 tehty 11.1.2017
 // © Lassi Oja K8321
-// Testi
 namespace T_1
 {
     class Program

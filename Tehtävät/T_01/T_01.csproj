@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Tehtävät\T_01\T_01.cs">
-      <Link>T_01.cs</Link>
-    </Compile>
+    <Compile Include="T_01.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
