@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// Lassi's T2 version 1.0
+// 12.1.2017
+// © Lassi Oja K8321
 namespace T_07
 {
     class T_07
