@@ -28,7 +28,7 @@ namespace T_08
             }
             int max = num.Max();
 
-            Console.WriteLine("The highest number you inputted is " + max);
+            Console.WriteLine("The highest number you typed is " + max);
         }
     }
 }
