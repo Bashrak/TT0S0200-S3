@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7DBBCA27-3029-4A22-9E0E-360F68A33A7B}</ProjectGuid>
+    <ProjectGuid>{1A3064E5-2406-4F36-BD90-022AB0D80B76}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>T_11</RootNamespace>
-    <AssemblyName>T_11</AssemblyName>
+    <RootNamespace>T_01</RootNamespace>
+    <AssemblyName>T_01</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="T_11.cs" />
+    <Compile Include="Kiuas.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
