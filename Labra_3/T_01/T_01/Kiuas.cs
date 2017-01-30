@@ -8,13 +8,29 @@ namespace T_01
 {
     public class Kiuas
     {
-        public bool KiuasOn { get; set; }
-        public int Temp { get; set; }
-        public int Humidity { get; set; }
+        public bool kiuasOn { get; set; }
+        public float temp { get; set; }
+        public float humidity { get; set; }
                 
-        public Kiuas(bool kiuasOn, int temp, int humidity)
+        public float Humidity
         {
+            get
+            {
+                return Humidity;
+            }
+                set
+                {
+                    humidity = value;
+
+                    if (humidity <0 || humidity > 100)
+                    {
+                    humidity = 0;
+                    }
+                }
+
+            }
 
         }
+        
     }
 }

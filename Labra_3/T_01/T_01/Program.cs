@@ -10,7 +10,12 @@ namespace T_01
     {
         static void Main(string[] args)
         {
-            Kiuas 
+            Kiuas kiuas = new Kiuas();
+
+            if ()
+            {
+
+            }
         }
     }
 }
