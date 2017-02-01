@@ -8,13 +8,26 @@ namespace T_01
 {
     public class Kiuas
     {
+        private readonly int MaxHumidity = 100;
+        private readonly int MinHumidity = 0;
         public bool KiuasOn { get; set; }
         public int Temp { get; set; }
-        public int Humidity { get; set; }
-                
-        public Kiuas(bool kiuasOn, int temp, int humidity)
-        {
+        private int humi;
 
-        }
+        public int Humidity
+        {
+            get { return humi; }
+            set
+            {
+                if (value > MaxHumidity)
+                    humi = MaxHumidity;
+                else if (value < MinHumidity)
+                    humi = MinHumidity;
+                else
+                {
+                    humi = value;
+                }
+            }
+        } 
     }
 }
