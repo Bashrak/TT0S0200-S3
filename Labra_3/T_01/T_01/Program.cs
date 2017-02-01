@@ -14,11 +14,10 @@ namespace T_01
 {
     class Program
     {
-        
-        static void Main(string[] args)
+        static void TestSaunaOven()
         {
             string temporal;
-                        
+
             Kiuas kiuas = new Kiuas();
 
             while (true)
@@ -33,7 +32,7 @@ namespace T_01
                 else
                 {
                     kiuas.KiuasOn = false;
-                    Console.WriteLine("Please turn the sauna oven on.");                 
+                    Console.WriteLine("Please turn the sauna oven on.");
                 }
 
             }
@@ -42,15 +41,32 @@ namespace T_01
             {
                 Console.WriteLine("How high would you like to set the sauna temperature? ");
                 kiuas.Temp = int.Parse(Console.ReadLine());
-               
+
                 Console.WriteLine("How about the humidity? ");
                 kiuas.Humidity = int.Parse(Console.ReadLine());
 
-                Console.WriteLine("You have set the temperature to " + kiuas.Temp + "C and the humidity to "+ kiuas.Humidity + "%");
+                Console.WriteLine("You have set the temperature to " + kiuas.Temp + "C and the humidity to " + kiuas.Humidity + "%");
 
                 Console.WriteLine();
 
             }
+
+        }
+
+
+
+        static void Main(string[] args)
+        {
+            try
+            {
+                TestSaunaOven();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
         }
     }
 }
+
+

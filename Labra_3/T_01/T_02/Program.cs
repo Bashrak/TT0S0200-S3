@@ -14,7 +14,7 @@ namespace T_02
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Washer()
         {
             string temporal;
 
@@ -24,7 +24,7 @@ namespace T_02
             washer.Maker = (Console.ReadLine());
 
             Console.WriteLine("And it's model? ");
-            washer.Model = (Console.ReadLine());       
+            washer.Model = (Console.ReadLine());
 
             while (true)
             {
@@ -42,7 +42,7 @@ namespace T_02
                 }
             }
             Console.WriteLine("How high would you like to set the temperature of the water during washing operation? ");
-            washer.Temperature =int.Parse(Console.ReadLine());
+            washer.Temperature = int.Parse(Console.ReadLine());
 
             Console.WriteLine("And the spin speed, your model supports it to max 2000 rounds per minute.");
             washer.SpinSpeed = int.Parse(Console.ReadLine());
@@ -52,6 +52,10 @@ namespace T_02
             Console.WriteLine("\nModel: " + washer.Model);
             Console.WriteLine("\nTemperature: " + washer.Temperature);
             Console.WriteLine("\nSpin Speed: " + washer.SpinSpeed);
+        }
+        static void Main(string[] args)
+        {
+            Washer();
         }
     }
 }

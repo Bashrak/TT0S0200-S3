@@ -12,9 +12,23 @@ namespace T_03
 {
     class Program
     {
+        static void TV()
+        {
+            TV tv = new TV(0,"",0);
+            Console.WriteLine("What's the model of your TV? ");
+            tv.Model = (Console.ReadLine());
+
+            Console.WriteLine("Whats the size of your TV? ");
+            tv.Size = float.Parse(Console.ReadLine());
+
+            Console.WriteLine("What year you bought it? ");
+            tv.Year = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Your TV model is " + tv.Model + " and the size is " + tv.Size + " and you bougth it in year " + tv.Year);
+        }
         static void Main(string[] args)
         {
-
+            TV();
         }
     }
 }
