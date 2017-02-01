@@ -23,8 +23,8 @@ namespace T_03
 
             Console.WriteLine("What year you bought it? ");
             tv.Year = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Your TV model is " + tv.Model + " and the size is " + tv.Size + " and you bougth it in year " + tv.Year);
+            Console.WriteLine(tv.ToString());
+            //Console.WriteLine("Your TV model is " + tv.Model + " and the size is " + tv.Size + " and you bougth it in year " + tv.Year);
         }
         static void Main(string[] args)
         {

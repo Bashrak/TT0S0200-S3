@@ -19,6 +19,10 @@ namespace T_03
             Year = year;
         }
 
+        public override string ToString()
+        {
+            return "Size: " + Size + " Model: " + Model + " Year " + Year;
+        }
     }
 }
 
