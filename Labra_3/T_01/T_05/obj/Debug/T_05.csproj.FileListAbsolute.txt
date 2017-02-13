@@ -1,0 +1,6 @@
+C:\Users\K8321\Source\Repos\TT0S0200-S3\Labra_3\T_01\T_05\bin\Debug\T_05.exe.config
+C:\Users\K8321\Source\Repos\TT0S0200-S3\Labra_3\T_01\T_05\bin\Debug\T_05.exe
+C:\Users\K8321\Source\Repos\TT0S0200-S3\Labra_3\T_01\T_05\bin\Debug\T_05.pdb
+C:\Users\K8321\Source\Repos\TT0S0200-S3\Labra_3\T_01\T_05\obj\Debug\T_05.csprojResolveAssemblyReference.cache
+C:\Users\K8321\Source\Repos\TT0S0200-S3\Labra_3\T_01\T_05\obj\Debug\T_05.exe
+C:\Users\K8321\Source\Repos\TT0S0200-S3\Labra_3\T_01\T_05\obj\Debug\T_05.pdb
