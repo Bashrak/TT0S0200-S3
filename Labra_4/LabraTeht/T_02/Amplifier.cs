@@ -9,7 +9,7 @@ namespace T_02
     class Amplifier
     {
         int vol;
-        public Amplifier() { }
+        
         public int Vol
         {
             get
