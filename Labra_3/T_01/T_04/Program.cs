@@ -8,8 +8,19 @@ namespace T_04
 {
     class Program
     {
+        static void Veh()
+        {
+            Vehicle car = new Vehicle("Ford", 220, 4);
+            Console.WriteLine(car.PrintData());
+
+            Console.WriteLine(car.ToString());
+
+        }
+
         static void Main(string[] args)
         {
+
+            Veh();
         }
     }
 }
