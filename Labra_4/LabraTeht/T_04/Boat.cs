@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace T_04
 {
-    class Boat
+    class Boat : Vehicle
     {
-        
-        string Type { get; set; }
-        int SeatCount { get; set; }
+        private int SeatCount { get; set; }
+        private string BoatType { get; set; }
+
+        public Boat(string nimi, string mdl, int year, string clr, int count, string type)
+            : base(nimi, mdl, year, clr)
+        {
+            SeatCount = count;
+            BoatType = type;
+        }
 
         public override string ToString()
         {
-            return base.ToString() + ", Seat Count: " + SeatCount + ", Boat Type: " + Type;
-        }        
+            return "Boat: \n" + base.ToString() + ". Seat count: " + SeatCount + ". Boat Type: " + BoatType;
+        }
     }
 }
