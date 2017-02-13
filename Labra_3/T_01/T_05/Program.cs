@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace T_05
 {
-    class Program
+    class Program 
     {
         static void Students()
         {
