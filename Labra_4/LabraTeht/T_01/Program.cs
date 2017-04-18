@@ -18,7 +18,6 @@ namespace T_01
                 ele.Floor = int.Parse(Console.ReadLine());
             }
             
-
         }
 
         static void Main(string[] args)

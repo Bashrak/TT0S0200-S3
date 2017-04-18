@@ -25,7 +25,7 @@ namespace T_05
             }
             else
             {
-                return "Radio is on, set the Frequency " + Frequency + " and set the the Volume" + Volume;
+                return "Radio is on, set the Frequency " + Frequency + " and set the the Volume " + Volume;
             }
         }
     }
